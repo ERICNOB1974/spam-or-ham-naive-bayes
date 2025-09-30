@@ -11,16 +11,21 @@ Para poder ejecutar el programa es necesario tener instalado Python 3 y algunas 
     git clone https://github.com/ERICNOB1974/spam-or-ham-naive-bayes.git
     cd spam-or-ham-naive-bayes
     ```
-2. Crear un entorno virtual:
+2. Instalar Python 3
+    ```
+    sudo apt install python3 (Ubuntu)
+    sudo pacman -S Python (ArchLinux)
+    ```
+3. Crear un entorno virtual:
     ```
     python3 -m venv venv
     source venv/bin/activate
     ```
-3. Instalar las dependencias necesarias:
+4. Instalar las dependencias necesarias:
     ```
     pip install -r requeriments.txt
     ```
-4. Ejecutar:
+5. Ejecutar:
     ```
     python antispam_naive_bayes.py
     ```
